@@ -6,6 +6,7 @@ gravedades = {
     "Jupiter": -28.79,
     "Saturno" :-10.44,
     "Urano" : -8.87,
+    "Neptuno": -11.15,
     
 
 }
@@ -21,4 +22,4 @@ time = float(input ("En que segundo lo quieres (en el instante inicial es 0): ")
 altura_variable = altura1+gravedad*time
 #esta va a ser la altura que se va a imprimir 
 
-print (f"Tu altura en el segundo {time:.2f} es de {altura_variable:.2f} m/s")
+print (f"Tu altura en el segundo {time} es de {altura_variable:.2f} m/s")
